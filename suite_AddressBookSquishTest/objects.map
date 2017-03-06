@@ -1,0 +1,33 @@
+:Address Book - Add.Email:_JLabel	{caption='Email:' type='javax.swing.JLabel' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Email:_JTextField	{leftWidget=':Address Book - Add.Email:_JLabel' type='javax.swing.JTextField' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Forename:_JLabel	{caption='Forename:' type='javax.swing.JLabel' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Forename:_JTextField	{leftWidget=':Address Book - Add.Forename:_JLabel' type='javax.swing.JTextField' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.OK_JButton	{caption='OK' type='javax.swing.JButton' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Phone:_JLabel	{caption='Phone:' type='javax.swing.JLabel' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Phone:_JTextField	{leftWidget=':Address Book - Add.Phone:_JLabel' type='javax.swing.JTextField' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Surname:_JLabel	{caption='Surname:' type='javax.swing.JLabel' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add.Surname:_JTextField	{leftWidget=':Address Book - Add.Surname:_JLabel' type='javax.swing.JTextField' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Add_Dialog	{basetype='java.awt.Dialog' caption='Address Book - Add' visible='true'}
+:Address Book - Addd.Add.OK_JButton	{caption='OK' type='javax.swing.JButton' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - Unnamed_AddressBook	{caption='Address Book - Unnamed' type='AddressBook' visible='true'}
+:Address Book - Unnamed_JMenuBar	{type='javax.swing.JMenuBar' visible='true' window=':Address Book - Unnamed_AddressBook'}
+:Address Book - Unnamed_JTable	{type='javax.swing.JTable' visible='true' window=':Address Book - Unnamed_AddressBook'}
+:Address Book - Unnamed_JViewport	{type='javax.swing.JViewport' visible='true' window=':Address Book - Unnamed_AddressBook'}
+:Address Book - add.Add.OK_JButton	{caption='OK' type='javax.swing.JButton' visible='true' window=':Address Book - Add_Dialog'}
+:Address Book - myfirstaddressbook_AddressBook	{caption='Address Book - myfirstaddressbook' type='AddressBook' visible='true'}
+:Address Book - myfirstaddressbook_JMenuBar	{type='javax.swing.JMenuBar' visible='true' window=':Address Book - myfirstaddressbook_AddressBook'}
+:Address Book_AddressBook	{caption='Address Book' type='AddressBook' visible='true'}
+:Address Book_JMenuBar	{type='javax.swing.JMenuBar' visible='true' window=':Address Book_AddressBook'}
+:Edit_JMenu	{caption='Edit' container=':Address Book - Unnamed_JMenuBar' type='javax.swing.JMenu' visible='true'}
+:File_JMenu	{caption='File' container=':Address Book_JMenuBar' type='javax.swing.JMenu' visible='true'}
+:File_JMenu_2	{caption='File' container=':Address Book - Unnamed_JMenuBar' type='javax.swing.JMenu' visible='true'}
+:File_JMenu_3	{caption='File' container=':Address Book - myfirstaddressbook_JMenuBar' type='javax.swing.JMenu' visible='true'}
+:Save.ComboBox.list_JList	{basetype='javax.swing.JList' name='ComboBox.list' visible='true' window=':Save_JDialog'}
+:Save.File Name:_JLabel	{basetype='javax.swing.JLabel' caption='File Name:' visible='true' window=':Save_JDialog'}
+:Save.File Name:_JTextField	{basetype='javax.swing.JTextField' leftWidget=':Save.File Name:_JLabel' visible='true' window=':Save_JDialog'}
+:Save.Save In:_JLabel	{caption='Save In:' type='javax.swing.JLabel' visible='true' window=':Save_JDialog'}
+:Save.Save In:_MetalComboBoxButton	{caption='' leftWidget=':Save.Save In:_JLabel' type='javax.swing.plaf.metal.MetalComboBoxButton' visible='true' window=':Save_JDialog'}
+:Save.Save_JButton	{caption='Save' type='javax.swing.JButton' visible='true' window=':Save_JDialog'}
+:Save_JDialog	{caption='Save' type='javax.swing.JDialog' visible='true'}
+:Save_JList	{basetype='javax.swing.JList' occurrence='1' visible='true' window=':Save_JDialog'}
+:test@testic.mail_TableItemProxy	{caption='test@testic.mail' column='2' container=':Address Book - Unnamed_JTable' row='0' type='com.froglogic.squish.awt.TableItemProxy'}
